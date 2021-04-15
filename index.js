@@ -51,5 +51,4 @@ app.use(errorHandler);
 
 app.use(errorMessage);
 
-server.listen(app.get('port'));
-console.log('listening on port', app.get('port'));
+server.listen(3000);
