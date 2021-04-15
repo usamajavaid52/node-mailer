@@ -9,6 +9,8 @@ ContactUsController.danishContactUs = async (req, res) => {
         const email = process.env.email;
         const password = process.env.password;
 
+        console.log(email, password);
+
 
         var transporter = nodemailer.createTransport({
             service: "gmail.com",
